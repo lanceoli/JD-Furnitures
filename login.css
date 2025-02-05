@@ -1,0 +1,163 @@
+/* root */
+:root{
+    --primary: #000000;
+    --secondary: #FFFFFF;
+    --button_color: #d9d9d9;
+    --nav_grayed: #808080;
+    --nav_selected: #bfbfbf;
+    --table_text: #404040;
+}
+
+
+
+
+/* reset */
+body,p,a,ul,li,h1{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/* sam the kid bb <3 */
+
+
+/*base styles */
+body{
+    background-color: var(--secondary);
+    overflow-x: hidden;
+    font-family: 'Inter Medium';
+    padding-top: 118.95px;
+}
+.button{
+    background: var(--button_color);
+}
+form #search{
+    border: none;
+}
+form #search:focus{
+    outline: none;
+}
+
+
+
+
+/* fonts */
+@font-face {
+    font-family: "Inter Medium";
+    src: url("assets/fonts/Inter-Medium.ttf");
+}
+p,a,::placeholder{
+    color: #000000;
+    font-size: 1.2em;
+    font-family: "Inter Medium";
+}
+@font-face {
+    font-family: "Inter SemiBold";
+    src: url("assets/fonts/Inter-SemiBold.ttf");
+}
+
+
+.login-container {
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.center-text {
+    font-family: "Inter SemiBold";
+    text-align: center;
+    margin: auto auto;
+    font-weight: bold;
+}
+
+.align-text {
+    font-family: "Inter SemiBold";
+    text-align: center;
+}
+
+.input-box {
+    margin: auto auto;
+    position: relative;
+    background-color: #bfbfbf;
+    font-weight:bold;
+    width: 80%;
+    color: #000000;
+    border: none;
+    border-radius: 200px;
+    cursor:pointer;
+    font-family: "Inter SemiBold";
+    margin-top: 10px;
+}
+
+
+
+.input-field {
+    padding: 15px 10px;
+    background-color: #bfbfbf;
+    font-weight:bold;
+    width: 100%;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor:pointer;
+    font-family: "Inter SemiBold";
+}
+
+
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.login-button,
+.admin-login-button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login-button {
+    font-size:20px;
+    background-color: #bfbfbf;
+    font-weight:bold;
+    width:170px;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor:pointer;
+    font-family: "Inter Medium";
+}
+
+.login-button:hover {
+    background-color: #81c884;
+}
+
+.admin-login-button {
+    font-size:10px;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    background-color:transparent;
+    margin-top:-3px;
+    letter-spacing:3px;
+    font-family: "Inter Medium";
+}
+
+
+
+.error{
+    margin: auto auto;
+    background: #f2dede;
+    color: #a94442;
+    padding:10 px;
+    width: 95%;
+    border-radius: 5px;
+}
+
